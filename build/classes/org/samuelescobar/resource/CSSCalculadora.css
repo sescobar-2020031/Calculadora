@@ -1,0 +1,60 @@
+/* 
+    Created on : 22/04/2021, 03:22:30 PM
+    Author     : Samuel Isaac Escobar Vásquez 2020031
+*/
+.button1
+{
+    -fx-background-color: #07FBA9;
+    -fx-background-radius: 30 30 30 30;
+}
+.button1:hover
+{
+    -fx-background-color: #60FFC9;
+    -fx-background-radius: 30 30 30 30; 
+}
+.button1:pressed
+{
+      -fx-background-color: #BBFFE8;
+    -fx-background-radius: 30 30 30 30;   
+}
+.button2
+{
+    -fx-background-color: #1CD6FF;
+    -fx-background-radius: 30 30 30 30;
+}
+.button2:hover
+{
+    -fx-background-color: #8BEAFF;
+    -fx-background-radius: 30 30 30 30; 
+}
+.button2:pressed
+{
+      -fx-background-color: #C5F4FF;
+    -fx-background-radius: 30 30 30 30;   
+}
+.button3
+{
+    -fx-background-color: #FFB5B5;
+    -fx-background-radius: 30 30 30 30;
+}
+.button3:hover
+{
+    -fx-background-color: #FBC5C5;
+    -fx-background-radius: 30 30 30 30; 
+}
+.button3:pressed
+{
+    -fx-background-color: #FCD4D4;
+    -fx-background-radius: 30 30 30 30;   
+}
+.anchorpane
+{
+    -fx-background-color: #000000;
+}
+.textfil
+{
+    -fx-background-color: #B0B0B0;
+    -fx-background-radius: 30 30 30 30;
+    -fx-text-fill:#951212;
+    -fx-prompt-text-fill: #951212; 
+}

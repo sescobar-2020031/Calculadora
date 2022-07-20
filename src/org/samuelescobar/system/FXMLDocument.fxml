@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="446.0" prefWidth="390.0" styleClass="anchorpane" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.samuelescobar.system.FXMLDocumentController">
+    <children>
+      <Button fx:id="btnMas" layoutX="249.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="+">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+        <Button fx:id="btnUno" layoutX="24.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="1">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnDos" layoutX="99.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="2">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnTres" layoutX="178.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="3">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCuatro" layoutX="24.0" layoutY="243.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="4">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSiete" layoutX="24.0" layoutY="170.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="7">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSeis" layoutX="178.0" layoutY="243.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="6">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCinco" layoutX="99.0" layoutY="243.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="5">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOcho" layoutX="99.0" layoutY="170.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="8">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnNueve" layoutX="178.0" layoutY="170.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="9">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnC" layoutX="24.0" layoutY="103.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="C">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCero" layoutX="99.0" layoutY="372.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="0">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCE" layoutX="99.0" layoutY="103.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="CE">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPorcentaje" layoutX="178.0" layoutY="103.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="\%">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDividir" layoutX="249.0" layoutY="103.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="/">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPor" layoutX="249.0" layoutY="170.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="X">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMenos" layoutX="249.0" layoutY="243.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="-">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCuadrado" layoutX="319.0" layoutY="103.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="X^Y">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAbs" layoutX="319.0" layoutY="170.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="abs">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRaiz" layoutX="319.0" layoutY="243.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="√">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMasMenos" layoutX="24.0" layoutY="372.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="+/-">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtPantalla" alignment="CENTER_RIGHT" editable="false" layoutX="19.0" layoutY="25.0" prefHeight="54.0" prefWidth="355.0" promptText="0." styleClass="textfil" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css">
+         <font>
+            <Font name="Open Sans" size="25.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnIgual" layoutX="249.0" layoutY="372.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button3" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text="=">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPunto" layoutX="178.0" layoutY="372.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../../samuelescobar/resource/CSSCalculadora.css" text=".">
+         <font>
+            <Font name="Open Sans" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
